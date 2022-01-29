@@ -27,7 +27,7 @@ public class ProductPage {
         methods.waitBySeconds(1);
         methods.scrollWithAction(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[1]/div[3]/div[4]/div[2]/div[7]/div[1]/div[1]/div[1]/a[1]/img[1]"));
         methods.waitBySeconds(2);
-        methods.findElement(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[1]/div[3]/div[4]/div[2]/div[7]/div[2]/div[4]/a[5]/i[1]")).click();
+        methods.findElement(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[1]/div[3]/div[4]/div[2]/div[7]/div[2]/div[4]/a[4]/i[1]")).click();
         methods.waitBySeconds(2);
         methods.findElement(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[1]/div[3]/div[4]/div[2]/div[6]/div[2]/div[4]/a[4]/i[1]")).click();
         methods.waitBySeconds(2);
